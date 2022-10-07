@@ -11,7 +11,7 @@ import Mongo from "../assets/mongo.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full bg-[#0a192f] text-gray-300">
       {/* container */}
       <div className="max-w-[75%] mx-auto text-center p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -53,6 +53,22 @@ const Skills = () => {
           <div className="hover:scale-110 duration-500">
             <img className="w-20 mx-auto mt-4" src={Node} alt="Node.js icon" />
             <p className="my-4">Node.js</p>
+          </div>
+          <div className="hover:scale-110 duration-500">
+            <img className="w-20 mx-auto mt-4" src={AWS} alt="AWS icon" />
+            <p className="my-4">AWS</p>
+          </div>
+          <div className="hover:scale-110 duration-500">
+            <img className="w-20 mx-auto mt-4" src={Mongo} alt="MongoDB icon" />
+            <p className="my-4">MongoDB</p>
+          </div>
+          <div className="hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto mt-4"
+              src={Tailwind}
+              alt="TailwindCSS icon"
+            />
+            <p className="my-4">TailwindCSS</p>
           </div>
         </div>
       </div>
