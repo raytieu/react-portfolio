@@ -4,13 +4,15 @@ import Waves from "../assets/wavesmusic.jpg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen bg-gray-200 text-gray-600">
+    <div
+      name="projects"
+      className="w-full md:h-screen bg-gray-200 text-gray-600"
+    >
       <div className="max-w-[1500px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-600 border-green-400">
-            Work
+          <p className="text-4xl font-bold inline border-b-4 text-gray-600 border-green-600">
+            Projects
           </p>
-          <p className="py-6">Check out some of my recent work</p>
         </div>
 
         {/* Container */}

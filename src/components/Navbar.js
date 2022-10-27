@@ -8,20 +8,20 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[8%] flex justify-between items-center px-4 bg-[#0000009a] text-gray-300">
-      <div>
-        {/* <img src={Logo} alt="Logo Image" style={{ width: "50px" }} /> */}
-      </div>
+    <div className="z-50 sticky top-0 w-full nav-height bg-white shadow-md shadow-gray-400 flex justify-end items-center text-gray-600 pr-[10%]">
+      {/* <div>
+        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
+      </div> */}
 
       {/* Menu */}
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex text-lg">
         <li>
           <Link
             className="hover:border-b-4 border-green-600"
             to="home"
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             Home
           </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
             className="hover:border-b-4 border-green-600"
             to="about"
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             About
           </Link>
@@ -39,29 +39,30 @@ const Navbar = () => {
         <li>
           <Link
             className="hover:border-b-4 border-green-600"
-            to="skills"
+            to="projects"
             smooth={true}
-            duration={500}
+            duration={1000}
           >
-            Skills
+            Projects
           </Link>
         </li>
         <li>
           <Link
             className="hover:border-b-4 border-green-600"
-            to="work"
+            to="skills"
             smooth={true}
-            duration={500}
+            duration={1000}
           >
-            Work
+            Skills
           </Link>
         </li>
+
         <li>
           <Link
             className="hover:border-b-4 border-green-600"
             to="contact"
             smooth={true}
-            duration={500}
+            duration={1000}
           >
             Contact
           </Link>
@@ -78,31 +79,42 @@ const Navbar = () => {
         className={
           nav === false
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={1000}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={1000}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={1000}
+          >
+            Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={1000}>
             Skills
           </Link>
         </li>
+
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={1000}
+          >
             Contact
           </Link>
         </li>
@@ -127,7 +139,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"

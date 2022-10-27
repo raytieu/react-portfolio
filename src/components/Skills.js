@@ -15,23 +15,23 @@ const Skills = () => {
       {/* container */}
       <div className="pt-24 max-w-[75%] mx-auto text-center p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-green-400 ">
+          <p className="text-4xl font-bold inline border-b-4 border-green-600 ">
             Skills
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-16 text-center py-16">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-12 text-center py-16">
           <div className="hover:scale-110 duration-500 ">
-            <img className="w-20 mx-auto mt-4" src={HTML} alt="HTML icon" />
+            <img className="w-32 mx-auto mt-4" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
           <div className="hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={CSS} alt="CSS icon" />
+            <img className="w-32 mx-auto mt-4" src={CSS} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto mt-4"
+              className="w-32 mx-auto mt-4"
               src={JavaScript}
               alt="JavaScript icon"
             />
@@ -39,31 +39,31 @@ const Skills = () => {
           </div>
           <div className="hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto mt-4"
+              className="w-32 mx-auto mt-4"
               src={ReactImg}
               alt="React icon"
             />
             <p className="my-4">React</p>
           </div>
           <div className="hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={GitHub} alt="GitHub icon" />
+            <img className="w-32 mx-auto mt-4" src={GitHub} alt="GitHub icon" />
             <p className="my-4">GitHub</p>
           </div>
           <div className="hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={Node} alt="Node.js icon" />
+            <img className="w-32 mx-auto mt-4" src={Node} alt="Node.js icon" />
             <p className="my-4">Node.js</p>
           </div>
           <div className="hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={AWS} alt="AWS icon" />
+            <img className="w-32 mx-auto mt-4" src={AWS} alt="AWS icon" />
             <p className="my-4">AWS</p>
           </div>
           <div className="hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={Mongo} alt="MongoDB icon" />
+            <img className="w-32 mx-auto mt-4" src={Mongo} alt="MongoDB icon" />
             <p className="my-4">MongoDB</p>
           </div>
           <div className="hover:scale-110 duration-500">
             <img
-              className="w-20 mx-auto mt-4"
+              className="w-32 mx-auto mt-4"
               src={Tailwind}
               alt="TailwindCSS icon"
             />
