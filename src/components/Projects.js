@@ -1,6 +1,7 @@
 import React from "react";
-import Recipe from "../assets/recipeapp.jpg";
-import Waves from "../assets/wavesmusic.jpg";
+import Recipe from "../assets/recipe-photo.jpg";
+import StatTracker from "../assets/bball-court.jpg";
+import Weather from "../assets/weather-photo.jpg";
 
 const Work = () => {
   return (
@@ -19,13 +20,13 @@ const Work = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-12">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Waves})` }}
+            style={{ backgroundImage: `url(${StatTracker})` }}
             className="shadow-lg shadow-gray-300 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Waves Music Player
+                StatTracker
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -66,13 +67,13 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Waves})` }}
+            style={{ backgroundImage: `url(${Weather})` }}
             className="shadow-lg shadow-gray-300 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Finance Consultation
+                Weather App
               </span>
               <div className="pt-8 text-center">
                 <a href="/">

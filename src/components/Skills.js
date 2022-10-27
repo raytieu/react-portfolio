@@ -11,7 +11,7 @@ import Mongo from "../assets/mongo.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full bg-gray-100 text-gray-600">
+    <div name="skills" className="w-full h-screen bg-gray-100 text-gray-600">
       {/* container */}
       <div className="pt-24 max-w-[75%] mx-auto text-center p-4 flex flex-col justify-center w-full h-full">
         <div>

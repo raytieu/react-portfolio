@@ -31,23 +31,22 @@ const About = () => {
             </div>
             <div className="text-lg">
               <p>
-                This quote summarizes my early development as a person because I
-                had been afraid of change. Just be comfortable with what already
-                works and don't take risks. Eventually tiring from this mundane
-                cycle, I wanted to allow my mind to venture into unknown
-                territory and indulge in the world of technology.
+                In my early development as a person, I was always afraid of
+                change. Just be comfortable with what already works and don't
+                take risks. Eventually tiring from this mundane cycle, I wanted
+                to allow my mind to venture into unknown territory and indulge
+                in the vast world of technology and innovation...
               </p>
               <br />
               <p>
                 I'm a software engineer who is well-versed in HTML, CSS,
-                JavaScript, and React, among other technologies. Primarily a
-                front-end developer at the moment, I also have experience
-                building out full-stack applications using the MERN stack. I
-                take great pride and joy in every development task that I
-                encounter and will always continue adding to my knowledge. I
-                look forward to interacting with all the people I will meet on
-                this journey and strive to be an invaluable part of any team or
-                company.
+                JavaScript, and React. Primarily a front-end developer at the
+                moment, I also have experience building out full-stack
+                applications using the MERN stack. I take great pride and joy in
+                every development task that I encounter and will always continue
+                adding to my knowledge. I look forward to interacting with all
+                the people I will meet on this journey and strive to be an
+                invaluable addition to any team and company.
               </p>
             </div>
           </div>

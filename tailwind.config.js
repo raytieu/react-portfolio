@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "stocks-bg": "url('./assets/stocks-bg.jpg')",
-        "comp-bg": "url('./assets/comp-bg.jpg')",
+        "stocks-bg": "url('./assets/stocks-photo.jpg')",
+        "comp-bg": "url('./assets/comp-screen.jpg')",
       },
     },
   },
