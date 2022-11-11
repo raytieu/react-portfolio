@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div name="projects" className="w-full bg-gray-200 text-gray-600 py-40">
       <div className="max-w-[1500px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <AnimationOnScroll animateIn="animate__bounceIn">
+        <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
           <div className="pb-8 text-center">
             <p className="text-5xl font-bold inline border-b-4 text-gray-600 border-green-600">
               Portfolio
@@ -23,6 +23,7 @@ const Projects = () => {
           <AnimationOnScroll
             initiallyVisible={false}
             animateIn="animate__fadeInLeft"
+            animateOnce={true}
           >
             <div className="flex flex-col w-[80%] lg:w-auto shadow-lg shadow-gray-300 group bg-gray-100 rounded-2xl justify-center items-center mx-auto px-6 py-12">
               <img
@@ -70,6 +71,7 @@ const Projects = () => {
             animateIn="animate__fadeIn"
             delay={500}
             duration={1}
+            animateOnce={true}
           >
             <div className="flex flex-col shadow-lg w-[80%] lg:w-auto shadow-gray-300 group bg-gray-100 rounded-2xl items-center mx-auto px-6 py-12">
               <img className="content-div" src={Weather} alt="StatTracker" />
@@ -111,6 +113,7 @@ const Projects = () => {
           <AnimationOnScroll
             initiallyVisible={false}
             animateIn="animate__fadeInRight"
+            animateOnce={true}
           >
             <div className="flex flex-col shadow-lg w-[80%] lg:w-auto shadow-gray-300 group bg-gray-100 rounded-2xl justify-center items-center mx-auto px-6 py-12">
               <img className="content-div" src={Recipe} alt="Recipe" />

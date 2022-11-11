@@ -5,7 +5,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const About = () => {
   return (
     <div name="about" className="w-full bg-gray-100 text-gray-600 py-40">
-      <AnimationOnScroll animateIn="animate__bounceIn">
+      <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
         <div className="text-center">
           <p className="text-5xl font-bold inline border-b-4 border-green-600">
             My Passion
@@ -15,7 +15,11 @@ const About = () => {
 
       <div className="flex flex-col justify-center items-center mt-20">
         <div className="max-w-[75%] w-full grid 2xl:grid-cols-2 gap-16 px-4">
-          <AnimationOnScroll animateIn="animate__bounceIn">
+          <AnimationOnScroll
+            animateIn="animate__fadeInLeft"
+            delay={250}
+            animateOnce={true}
+          >
             <div className="items-center justify-center flex align-middle">
               <img
                 className="w-[60%] rounded-md"
@@ -24,7 +28,11 @@ const About = () => {
               />
             </div>
           </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__bounceIn">
+          <AnimationOnScroll
+            animateIn="animate__fadeInRight"
+            delay={250}
+            animateOnce={true}
+          >
             <div className="flex flex-col gap-12 items-center justify-center">
               <div className="text-3xl font-bold">
                 <p>
