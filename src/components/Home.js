@@ -9,12 +9,12 @@ const Home = () => {
       className="bg-stocks-bg bg-cover bg-center w-full h-screen"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-end h-full">
         <h1 className="text-4xl sm:text-7xl font-bold text-[#dbe1f7]">
           Raymond Tieu
         </h1>
         <h2 className="text-4xl sm:text-4xl my-5 font-bold text-[#9da6c2]">
-          Full Stack Developer
+          Software Engineer
         </h2>
         <div>
           <Link to="about" smooth={true} duration={1000}>

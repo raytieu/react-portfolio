@@ -8,14 +8,14 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="z-50 sticky top-0 w-full nav-height bg-white shadow-md shadow-gray-400 flex justify-end items-center text-gray-600 pr-[10%]">
-      {/* <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
-      </div> */}
+    <div className="z-50 sticky top-0 w-full nav-height bg-white shadow-md shadow-gray-400 flex justify-around items-center text-gray-600">
+      <p className="text-2xl font-bold">
+        Raymond Tieu &nbsp;&nbsp;| &nbsp;&nbsp;Software Engineer
+      </p>
 
       {/* Menu */}
 
-      <ul className="hidden md:flex text-lg">
+      <ul className="hidden lg:flex text-lg">
         <li>
           <Link
             className="hover:border-b-4 border-green-600"
@@ -70,7 +70,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="lg:hidden z-10">
         {nav === false ? <FaBars /> : <FaTimes />}
       </div>
 
