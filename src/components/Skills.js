@@ -18,7 +18,7 @@ const Skills = () => {
       className="w-full lg:h-screen bg-gray-100 text-gray-600 py-20"
     >
       {/* container */}
-      <div className="mx-auto text-center p-4 flex flex-col items-center w-full h-full">
+      <div className="mx-auto text-center flex flex-col justify-center items-center w-full h-full">
         <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
           <div>
             <p className="text-4xl font-bold inline border-b-4 border-green-600 ">
@@ -27,7 +27,7 @@ const Skills = () => {
           </div>
         </AnimationOnScroll>
 
-        <div className="mt-20 w-[60%] grid grid-cols-2 sm:grid-cols-3 gap-12 text-center">
+        <div className="mt-28 w-[60%] grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
           <AnimationOnScroll
             animateIn="animate__flipInY"
             delay={100}
@@ -66,6 +66,19 @@ const Skills = () => {
           >
             <div className="hover:scale-110 duration-500">
               <img
+                className="w-24 mx-auto"
+                src={JavaScript}
+                alt="JavaScript icon"
+              />
+            </div>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            animateIn="animate__flipInY"
+            delay={500}
+            animateOnce={true}
+          >
+            <div className="hover:scale-110 duration-500">
+              <img
                 className="w-24 mt-8 mx-auto"
                 src={ReactImg}
                 alt="React icon"
@@ -74,7 +87,7 @@ const Skills = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__flipInY"
-            delay={500}
+            delay={600}
             animateOnce={true}
           >
             <div className="hover:scale-110 duration-500">
@@ -88,7 +101,7 @@ const Skills = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__flipInY"
-            delay={600}
+            delay={700}
             animateOnce={true}
           >
             <div className="hover:scale-110 duration-500">
@@ -101,7 +114,20 @@ const Skills = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__flipInY"
-            delay={700}
+            delay={800}
+            animateOnce={true}
+          >
+            <div className="hover:scale-110 duration-500">
+              <img
+                className="w-24 mt-8 mx-auto"
+                src={Node}
+                alt="Node.js icon"
+              />
+            </div>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            animateIn="animate__flipInY"
+            delay={900}
             animateOnce={true}
           >
             <div className="hover:scale-110 duration-500">
@@ -110,7 +136,7 @@ const Skills = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__flipInY"
-            delay={800}
+            delay={1000}
             animateOnce={true}
           >
             <div className="hover:scale-110 duration-500">
@@ -123,7 +149,20 @@ const Skills = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__flipInY"
-            delay={900}
+            delay={1100}
+            animateOnce={true}
+          >
+            <div className="hover:scale-110 duration-500">
+              <img
+                className="w-24 mt-8 mx-auto"
+                src={Tailwind}
+                alt="TailwindCSS icon"
+              />
+            </div>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            animateIn="animate__flipInY"
+            delay={1200}
             animateOnce={true}
           >
             <div className="hover:scale-110 duration-500">

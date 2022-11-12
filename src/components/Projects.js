@@ -6,7 +6,10 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full bg-gray-200 text-gray-600 py-20">
+    <div
+      name="projects"
+      className="w-full xl:h-screen bg-gray-200 text-gray-600 py-20"
+    >
       <div className="max-w-[1500px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
         <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
           <div className="pb-8 text-center">
@@ -18,14 +21,14 @@ const Projects = () => {
 
         {/* Container */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 mt-12 w-[80%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:w-[95%] xl:grid-cols-3 gap-12 mt-12 xl:w-[90%]">
           {/* Grid Item */}
           <AnimationOnScroll
             initiallyVisible={false}
             animateIn="animate__fadeInLeft"
             animateOnce={true}
           >
-            <div className="flex flex-col w-[90%] lg:w-auto shadow-lg shadow-gray-300 group bg-gray-100 rounded-2xl justify-center items-center mx-auto px-6 py-8">
+            <div className="flex flex-col w-[100%] lg:w-auto shadow-lg shadow-gray-300 group bg-gray-100 rounded-2xl justify-center items-center mx-auto px-6 py-6">
               <img
                 className="project-img"
                 src={StatTracker}
@@ -76,7 +79,7 @@ const Projects = () => {
             duration={1}
             animateOnce={true}
           >
-            <div className="flex flex-col shadow-lg w-[80%] lg:w-auto shadow-gray-300 group bg-gray-100 rounded-2xl items-center mx-auto px-6 py-8">
+            <div className="flex flex-col shadow-lg w-[100%] lg:w-auto shadow-gray-300 group bg-gray-100 rounded-2xl items-center mx-auto px-6 py-6">
               <img className="project-img" src={Weather} alt="StatTracker" />
 
               <p className="text-2xl font-bold mt-8 text-center">
@@ -121,7 +124,7 @@ const Projects = () => {
             animateIn="animate__fadeInRight"
             animateOnce={true}
           >
-            <div className="flex flex-col shadow-lg w-[80%] lg:w-auto shadow-gray-300 group bg-gray-100 rounded-2xl justify-center items-center mx-auto px-6 py-8">
+            <div className="flex flex-col shadow-lg w-[100%] lg:w-auto shadow-gray-300 group bg-gray-100 rounded-2xl justify-center items-center mx-auto px-6 py-6">
               <img className="project-img" src={Recipe} alt="Recipe" />
 
               <p className="text-2xl font-bold mt-8 text-center">
