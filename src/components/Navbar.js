@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="z-50 sticky top-0 w-full nav-height bg-white shadow-md shadow-gray-400 flex justify-around items-center text-gray-600">
-      <p className="text-2xl font-bold">
+      <p className="text-lg sm:text-xl font-bold">
         Raymond Tieu &nbsp;&nbsp;| &nbsp;&nbsp;Software Engineer
       </p>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             smooth={true}
             duration={1000}
           >
-            Projects
+            Portfolio
           </Link>
         </li>
         <li>

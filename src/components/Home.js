@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="bg-stocks-bg bg-cover bg-center w-full h-screen"
+      className="bg-stocks-bg bg-cover bg-center w-full h-screen welcome-page"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-end h-full">
@@ -16,12 +16,12 @@ const Home = () => {
           initiallyVisible={true}
           // animateIn="animate__bounceIn"
         >
-          <h1 className="text-4xl sm:text-7xl font-bold text-[#dbe1f7]">
+          <h1 className="text-4xl sm:text-6xl font-bold text-[#dbe1f7]">
             Raymond Tieu
           </h1>
         </AnimationOnScroll>
         <AnimationOnScroll initiallyVisible={true}>
-          <h2 className="text-4xl sm:text-4xl my-5 font-bold text-[#9da6c2]">
+          <h2 className="text-2xl sm:text-3xl my-5 font-bold text-[#9da6c2]">
             Software Engineer
           </h2>
         </AnimationOnScroll>

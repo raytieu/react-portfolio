@@ -4,11 +4,11 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const About = () => {
   return (
-    <div name="about" className="w-full bg-gray-100 text-gray-600 py-40">
+    <div name="about" className="w-full bg-gray-100 text-gray-600 py-20">
       <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
         <div className="text-center">
-          <p className="text-5xl font-bold inline border-b-4 border-green-600">
-            My Passion
+          <p className="text-4xl font-bold inline border-b-4 border-green-600">
+            About My Passion
           </p>
         </div>
       </AnimationOnScroll>
@@ -22,7 +22,7 @@ const About = () => {
           >
             <div className="items-center justify-center flex align-middle">
               <img
-                className="w-[60%] rounded-md"
+                className="w-[70%] rounded-md"
                 src={AboutPic}
                 alt="about pic"
               />
@@ -34,7 +34,7 @@ const About = () => {
             animateOnce={true}
           >
             <div className="flex flex-col gap-12 items-center justify-center">
-              <div className="text-3xl font-bold">
+              <div className="text-2xl font-bold">
                 <p>
                   "The most damaging phrase in the language is.. 'it's always
                   been done this way.'"
@@ -44,7 +44,7 @@ const About = () => {
                   <em>-Grace Hopper</em>
                 </p>
               </div>
-              <div className="text-lg">
+              <div className="text-md">
                 <p>
                   When I was younger.... discover passion at young age... now
                   pursuing my passion... story about video games...what event at
