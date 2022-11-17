@@ -39,23 +39,36 @@ const About = () => {
           <div className="flex flex-col gap-12 items-center justify-center mt-12 2xl:mt-0">
             <div className="text-2xl font-bold">
               <p>
-                "The most damaging phrase in the language is.. 'it's always been
-                done this way.'"
+                {/* "The most damaging phrase in the language is.. 'it's always been
+                done this way.'" grace hopper*/}
+                “There are only two ways to live your life. One is as though
+                nothing is a miracle. The other is as though everything is a
+                miracle.”
               </p>
               <br />
               <p>
-                <em>-Grace Hopper</em>
+                <em>-Albert Einstein</em>
               </p>
             </div>
             <div className="text-md">
               <p>
-                When I was younger.... discover passion at young age... now
+                {/* When I was younger.... discover passion at young age... now
                 pursuing my passion... story about video games...what event at
                 an older age grow that passion In my early development as a
                 person, I was always afraid of change. Just be comfortable with
                 what already works and don't take risks. Eventually tiring from
                 this mundane cycle, I wanted to venture into unknown territory
-                and indulge in the vast world of technology and innovation...
+                and indulge in the vast world of technology and innovation... */}
+                I vividly remember the day when my Uncle John brought me to our
+                local Blockbuster and rented the JRPG (Japanese Role-Playing
+                Game), Lufia: The Fortress of Doom, for my Super Nintendo. At
+                the age of 6, this game introduced into my life so many new
+                concepts: numbers, language, and strategy, but what fascinated
+                me the most was how the game would respond to every button I
+                pressed. Any action I executed, every level-up, and every new
+                moment in the game had to be intricately programmed into the
+                code that brought my imagination to reality; this is the miracle
+                of software.
               </p>
               <br />
               <p>
